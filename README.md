@@ -48,3 +48,22 @@ Wireless LAN adapter Wi-Fi:
    Default Gateway . . . . . . . . . : ...
                                        192.168.0.1
 ```
+
+# Ejecutar sonarQube
+
+```
+sonar-scanner.bat -D"sonar.projectKey=sistema-proyecto" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.login=sqp_3cee0d7a6d95a15818c2ae5bb17ca2d9deabcc47"
+```
+
+# Ejecutar Pruebas Unitarias
+
+
+Crear las pruebas
+```
+php artisan make:test LoginControllerTest
+```
+
+Ejecutar las pruebas
+```
+vendor/bin/phpunit --testdox
+```
