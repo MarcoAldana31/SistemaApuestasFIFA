@@ -1,6 +1,45 @@
-<logging>
- <log type="coverage-html" target="build/coverage"/>
- <log type="coverage-clover" target="build/logs/clover.xml"/>
- <log type="coverage-crap4j" target="build/logs/crap4j.xml"/>
- <log type="junit" target="build/logs/junit.xml" logIncompleteSkipped="false"/>
-</logging>
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="php-automate-build-ant" default="full-build">
+
+    <!-- By default the tools are managed by Composer in ${basedir}/vendor/bin -->
+    <property name="phpcs" value="${basedir}/vendor/bin/phpcs"/>
+    <property name="phpdox" value="${basedir}/vendor/bin/phpdox"/>
+    <property name="phploc" value="${basedir}/vendor/bin/phploc"/>
+    <property name="phpmd" value="${basedir}/vendor/bin/phpmd"/>
+    <property name="phpunit" value="${basedir}/vendor/bin/phpunit"/>
+
+    <target name="lint" unless="lint.done" description="Perform syntax check of PHP sourcecode files.">
+        <apply executable="php" failonerror="true" taskname="lint">
+            <arg value="-l"/>
+            <fileset dir="${basedir}/">
+                <include name="**/*.php"/>
+                <!-- modified/ -->
+                <exclude name="vendor/" />
+            </fileset>
+            <fileset dir="${basedir}/tests">
+                <include name="**/*.php"/>
+                <!-- modified/ -->
+            </fileset>
+        </apply>
+        <property name="lint.done" value="true"/>
+    </target>
+
+    
+
+    <target name="static-analysis" depends="lint"
+            description="Perform static analysis.">
+        <echo message="Done"/>
+    </target>
+
+    <target name="-check-failure">
+        <fail message="PHPUnit did not finish successfully">
+            <condition>
+                <not>
+                    <equals arg1="${result.phpunit}" arg2="0"/>
+                </not>
+            </condition>
+        </fail>
+        <echo message="Checked failure"/>
+    </target>
+
+</project>

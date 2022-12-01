@@ -1,0 +1,2568 @@
+
+FILE: ...\PROYECTO LARAVEL\SistemaApuestasFIFA\app\app\Console\Kernel.php
+----------------------------------------------------------------------
+FOUND 6 ERRORS AFFECTING 5 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+  8 | ERROR | [ ] Missing doc comment for class Kernel
+ 22 | ERROR | [ ] Missing parameter comment
+ 22 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 23 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+    |       |     in a doc comment
+ 39 | ERROR | [x] File is being conditionally included; use "include"
+    |       |     instead
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...YECTO LARAVEL\SistemaApuestasFIFA\app\app\Exceptions\Handler.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 7 | ERROR | Missing doc comment for class Handler
+----------------------------------------------------------------------
+
+
+FILE: ...aApuestasFIFA\app\app\Http\Controllers\Api\EstadioController.php
+----------------------------------------------------------------------
+FOUND 47 ERRORS AFFECTING 39 LINES
+----------------------------------------------------------------------
+   2 | ERROR | [ ] Missing file doc comment
+  12 | ERROR | [ ] Missing doc comment for class EstadioController
+  14 | ERROR | [ ] Doc comment for parameter "$request" missing
+  27 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  31 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  33 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  37 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  44 | ERROR | [ ] Missing parameter comment
+  44 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+  45 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+  49 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  51 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  59 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  63 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  65 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  69 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  76 | ERROR | [ ] Missing parameter comment
+  76 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+  77 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+  86 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  86 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+  90 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  94 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  96 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 100 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 107 | ERROR | [ ] Missing parameter comment
+ 107 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 108 | ERROR | [ ] Missing parameter comment
+ 108 | ERROR | [x] Expected 22 spaces after parameter type; 2 found
+ 109 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+ 113 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 115 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 122 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 122 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+ 129 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 133 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 135 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 139 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 146 | ERROR | [ ] Missing parameter comment
+ 146 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 147 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+ 156 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 156 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+ 163 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 167 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 169 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 173 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 32 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...emaApuestasFIFA\app\app\Http\Controllers\Api\GrupoController.php
+----------------------------------------------------------------------
+FOUND 47 ERRORS AFFECTING 39 LINES
+----------------------------------------------------------------------
+   2 | ERROR | [ ] Missing file doc comment
+  12 | ERROR | [ ] Missing doc comment for class GrupoController
+  14 | ERROR | [ ] Doc comment for parameter "$request" missing
+  27 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  31 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  33 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  37 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  44 | ERROR | [ ] Missing parameter comment
+  44 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+  45 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+  49 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  52 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  61 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  65 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  67 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  71 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  78 | ERROR | [ ] Missing parameter comment
+  78 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+  79 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+  88 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  88 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+  92 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  96 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  98 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 102 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 109 | ERROR | [ ] Missing parameter comment
+ 109 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 110 | ERROR | [ ] Missing parameter comment
+ 110 | ERROR | [x] Expected 22 spaces after parameter type; 2 found
+ 111 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+ 115 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 117 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 124 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 124 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+ 131 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 135 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 137 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 141 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 148 | ERROR | [ ] Missing parameter comment
+ 148 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 149 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+ 158 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 158 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+ 165 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 169 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 171 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 175 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 32 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...temaApuestasFIFA\app\app\Http\Controllers\Api\LigaController.php
+----------------------------------------------------------------------
+FOUND 120 ERRORS AND 9 WARNINGS AFFECTING 89 LINES
+----------------------------------------------------------------------
+   2 | ERROR   | [ ] Missing file doc comment
+  18 | ERROR   | [ ] Missing doc comment for class LigaController
+  20 | ERROR   | [ ] Doc comment for parameter "$request" missing
+  33 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  37 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+  39 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  43 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+  50 | ERROR   | [ ] Missing parameter comment
+  50 | ERROR   | [x] Expected 1 spaces after parameter type; 2 found
+  51 | ERROR   | [ ] Tag @return cannot be grouped with parameter
+     |         |     tags in a doc comment
+  55 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  59 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+  63 | WARNING | [ ] Line exceeds 85 characters; contains 106
+     |         |     characters
+  72 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  72 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  76 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  76 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+  76 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  91 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  95 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+  97 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 101 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 108 | ERROR   | [ ] Missing parameter comment
+ 108 | ERROR   | [x] Expected 1 spaces after parameter type; 2 found
+ 109 | ERROR   | [ ] Tag @return cannot be grouped with parameter
+     |         |     tags in a doc comment
+ 118 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 118 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 122 | WARNING | [ ] Line exceeds 85 characters; contains 94
+     |         |     characters
+ 129 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 133 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 135 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 139 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 146 | ERROR   | [ ] Missing parameter comment
+ 146 | ERROR   | [x] Expected 1 spaces after parameter type; 2 found
+ 147 | ERROR   | [ ] Missing parameter comment
+ 147 | ERROR   | [x] Expected 22 spaces after parameter type; 2 found
+ 148 | ERROR   | [ ] Tag @return cannot be grouped with parameter
+     |         |     tags in a doc comment
+ 152 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 156 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 163 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 163 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 167 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 167 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 167 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 168 | WARNING | [ ] Line exceeds 85 characters; contains 100
+     |         |     characters
+ 174 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 174 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 174 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 175 | WARNING | [ ] Line exceeds 85 characters; contains 113
+     |         |     characters
+ 178 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 178 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 178 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 179 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 179 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 179 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 184 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 184 | ERROR   | [x] Expected 1 space after FUNCTION keyword; 0 found
+ 184 | ERROR   | [x] Expected 1 space before opening brace; found 0
+ 187 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 190 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 190 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 190 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 191 | WARNING | [ ] Line exceeds 85 characters; contains 145
+     |         |     characters
+ 198 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 202 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 204 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 208 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 215 | ERROR   | [ ] Missing parameter comment
+ 215 | ERROR   | [x] Expected 1 spaces after parameter type; 2 found
+ 216 | ERROR   | [ ] Tag @return cannot be grouped with parameter
+     |         |     tags in a doc comment
+ 225 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 225 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 229 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 229 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 229 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 230 | WARNING | [ ] Line exceeds 85 characters; contains 88
+     |         |     characters
+ 236 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 240 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 242 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 246 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 250 | ERROR   | [ ] Missing doc comment for function
+     |         |     enviarInvitaciones()
+ 252 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 255 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 262 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 262 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 266 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 266 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 266 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 272 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 276 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 278 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 282 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 286 | ERROR   | [ ] Missing doc comment for function copiarLiga()
+ 288 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 291 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 298 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 298 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 302 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 302 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 302 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 306 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 306 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 316 | WARNING | [ ] Line exceeds 85 characters; contains 86
+     |         |     characters
+ 320 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 320 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 320 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 321 | WARNING | [ ] Line exceeds 85 characters; contains 113
+     |         |     characters
+ 326 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 330 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 332 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 336 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 340 | ERROR   | [ ] Missing doc comment for function
+     |         |     enviarSolicitud()
+ 342 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 344 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 351 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 351 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 355 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 355 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 355 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 359 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 359 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 359 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 360 | WARNING | [ ] Line exceeds 85 characters; contains 94
+     |         |     characters
+ 368 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 368 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 380 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 384 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 386 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 390 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 84 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...estasFIFA\app\app\Http\Controllers\Api\LigaUsuarioController.php
+----------------------------------------------------------------------
+FOUND 44 ERRORS AND 3 WARNINGS AFFECTING 33 LINES
+----------------------------------------------------------------------
+   2 | ERROR   | [ ] Missing file doc comment
+  14 | ERROR   | [ ] Missing doc comment for class
+     |         |     LigaUsuarioController
+  16 | ERROR   | [ ] Missing doc comment for function rechazar()
+  22 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  22 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  26 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  26 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  33 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  37 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+  39 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  43 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+  47 | ERROR   | [ ] Missing doc comment for function aprobar()
+  55 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  55 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  59 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  59 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  76 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  80 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+  84 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  88 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+  92 | ERROR   | [ ] Missing doc comment for function pagar()
+  94 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  96 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 104 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 104 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 108 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 108 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 109 | WARNING | [ ] Line exceeds 85 characters; contains 90
+     |         |     characters
+ 113 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 113 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 117 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 117 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 117 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 121 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 121 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 121 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 122 | WARNING | [ ] Line exceeds 85 characters; contains 121
+     |         |     characters
+ 126 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 126 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 130 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 130 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 130 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 131 | WARNING | [ ] Line exceeds 85 characters; contains 97
+     |         |     characters
+ 144 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 148 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 152 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 156 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 28 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...emaApuestasFIFA\app\app\Http\Controllers\Api\LoginController.php
+----------------------------------------------------------------------
+FOUND 12 ERRORS AND 1 WARNING AFFECTING 10 LINES
+----------------------------------------------------------------------
+  2 | ERROR   | [ ] Missing file doc comment
+ 12 | ERROR   | [ ] Missing doc comment for class LoginController
+ 14 | ERROR   | [ ] Missing doc comment for function login()
+ 16 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+ 19 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+ 22 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 22 | ERROR   | [x] First condition of a multi-line IF statement must
+    |         |     directly follow the opening parenthesis
+ 22 | WARNING | [ ] Line exceeds 85 characters; contains 106
+    |         |     characters
+ 22 | ERROR   | [x] There must be a single space between the closing
+    |         |     parenthesis and the opening brace of a multi-line
+    |         |     IF statement; found 0 spaces
+ 28 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+ 32 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+ 34 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+ 38 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 8 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...aApuestasFIFA\app\app\Http\Controllers\Api\PartidoController.php
+----------------------------------------------------------------------
+FOUND 120 ERRORS AND 20 WARNINGS AFFECTING 90 LINES
+----------------------------------------------------------------------
+   2 | ERROR   | [ ] Missing file doc comment
+  17 | ERROR   | [ ] Missing doc comment for class PartidoController
+  19 | ERROR   | [ ] Doc comment for parameter "$request" missing
+  30 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  34 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+  36 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  40 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+  47 | ERROR   | [ ] Missing parameter comment
+  47 | ERROR   | [x] Expected 1 spaces after parameter type; 2 found
+  48 | ERROR   | [ ] Tag @return cannot be grouped with parameter
+     |         |     tags in a doc comment
+  52 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  63 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+  68 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  68 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+  68 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  69 | WARNING | [ ] Line exceeds 85 characters; contains 86
+     |         |     characters
+  72 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  72 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+  72 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  73 | WARNING | [ ] Line exceeds 85 characters; contains 95
+     |         |     characters
+  76 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  76 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+  76 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  77 | WARNING | [ ] Line exceeds 85 characters; contains 89
+     |         |     characters
+  81 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  81 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  85 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  85 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  89 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  89 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+  89 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  94 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  94 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  99 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  99 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 104 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 104 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 116 | WARNING | [ ] Line exceeds 85 characters; contains 98
+     |         |     characters
+ 121 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 125 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 127 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 131 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 138 | ERROR   | [ ] Missing parameter comment
+ 138 | ERROR   | [x] Expected 1 spaces after parameter type; 2 found
+ 139 | ERROR   | [ ] Tag @return cannot be grouped with parameter
+     |         |     tags in a doc comment
+ 148 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 148 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 152 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 156 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 158 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 162 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 169 | ERROR   | [ ] Missing parameter comment
+ 169 | ERROR   | [x] Expected 1 spaces after parameter type; 2 found
+ 170 | ERROR   | [ ] Missing parameter comment
+ 170 | ERROR   | [x] Expected 22 spaces after parameter type; 2 found
+ 171 | ERROR   | [ ] Tag @return cannot be grouped with parameter
+     |         |     tags in a doc comment
+ 177 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 188 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 195 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 195 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 199 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 199 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 199 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 200 | WARNING | [ ] Line exceeds 85 characters; contains 108
+     |         |     characters
+ 203 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 203 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 203 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 204 | WARNING | [ ] Line exceeds 85 characters; contains 86
+     |         |     characters
+ 207 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 207 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 207 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 208 | WARNING | [ ] Line exceeds 85 characters; contains 95
+     |         |     characters
+ 211 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 211 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 211 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 212 | WARNING | [ ] Line exceeds 85 characters; contains 89
+     |         |     characters
+ 216 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 216 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 220 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 220 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 224 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 224 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 224 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 229 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 229 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 234 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 234 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 239 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 239 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 251 | WARNING | [ ] Line exceeds 85 characters; contains 98
+     |         |     characters
+ 258 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 258 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 258 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 260 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 260 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 261 | WARNING | [ ] Line exceeds 85 characters; contains 92
+     |         |     characters
+ 268 | ERROR   | [ ] Expected "foreach (...) {\n"; found
+     |         |     "foreach(...){\n"
+ 271 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 271 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 272 | ERROR   | [x] Each line in a multi-line IF statement must
+     |         |     begin with a boolean operator
+ 273 | ERROR   | [x] Each line in a multi-line IF statement must
+     |         |     begin with a boolean operator
+ 274 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 275 | WARNING | [ ] Line exceeds 85 characters; contains 104
+     |         |     characters
+ 277 | ERROR   | [ ] Expected "} else {\n"; found "}else{\n"
+ 278 | WARNING | [ ] Line exceeds 85 characters; contains 94
+     |         |     characters
+ 279 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 279 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 279 | WARNING | [ ] Line exceeds 85 characters; contains 147
+     |         |     characters
+ 279 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 280 | WARNING | [ ] Line exceeds 85 characters; contains 108
+     |         |     characters
+ 282 | ERROR   | [x] Line indented incorrectly; expected at least 28
+     |         |     spaces, found 24
+ 283 | ERROR   | [ ] Expected "} else if (...) {\n"; found "}else if
+     |         |     (...){\n"
+ 283 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 283 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 283 | WARNING | [ ] Line exceeds 85 characters; contains 96
+     |         |     characters
+ 283 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 284 | WARNING | [ ] Line exceeds 85 characters; contains 129
+     |         |     characters
+ 285 | WARNING | [ ] Line exceeds 85 characters; contains 110
+     |         |     characters
+ 289 | WARNING | [ ] Line exceeds 85 characters; contains 114
+     |         |     characters
+ 290 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 290 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 294 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 294 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 296 | WARNING | [ ] Line exceeds 85 characters; contains 112
+     |         |     characters
+ 307 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 311 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 315 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 319 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 326 | ERROR   | [ ] Missing parameter comment
+ 326 | ERROR   | [x] Expected 1 spaces after parameter type; 2 found
+ 327 | ERROR   | [ ] Tag @return cannot be grouped with parameter
+     |         |     tags in a doc comment
+ 335 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 335 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 339 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 339 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 340 | WARNING | [ ] Line exceeds 85 characters; contains 110
+     |         |     characters
+ 346 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 350 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 352 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 356 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 75 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...uestasFIFA\app\app\Http\Controllers\Api\PremiacionController.php
+----------------------------------------------------------------------
+FOUND 18 ERRORS AFFECTING 13 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+ 12 | ERROR | [ ] Missing doc comment for class PremiacionController
+ 14 | ERROR | [ ] Missing doc comment for function
+    |       |     obtenerPremiacionLigaCentral()
+ 19 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 19 | ERROR | [x] There must be a single space between the closing
+    |       |     parenthesis and the opening brace of a multi-line
+    |       |     IF statement; found 0 spaces
+ 23 | ERROR | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 23 | ERROR | [x] First condition of a multi-line IF statement must
+    |       |     directly follow the opening parenthesis
+ 23 | ERROR | [x] There must be a single space between the closing
+    |       |     parenthesis and the opening brace of a multi-line
+    |       |     IF statement; found 0 spaces
+ 33 | ERROR | [ ] Expected "foreach (...) {\n"; found
+    |       |     "foreach(...){\n"
+ 41 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 41 | ERROR | [x] Expected 1 space after FUNCTION keyword; 0 found
+ 41 | ERROR | [x] Expected 1 space before opening brace; found 0
+ 45 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+ 52 | ERROR | [ ] Expected "foreach (...) {\n"; found
+    |       |     "foreach(...){\n"
+ 69 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 73 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+ 75 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 79 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 11 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...temaApuestasFIFA\app\app\Http\Controllers\Api\SedeController.php
+----------------------------------------------------------------------
+FOUND 47 ERRORS AFFECTING 39 LINES
+----------------------------------------------------------------------
+   2 | ERROR | [ ] Missing file doc comment
+  12 | ERROR | [ ] Missing doc comment for class SedeController
+  14 | ERROR | [ ] Doc comment for parameter "$request" missing
+  27 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  31 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  33 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  37 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  44 | ERROR | [ ] Missing parameter comment
+  44 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+  45 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+  49 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  52 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  61 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  65 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  67 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  71 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  78 | ERROR | [ ] Missing parameter comment
+  78 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+  79 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+  88 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  88 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+  92 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  96 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  98 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 102 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 109 | ERROR | [ ] Missing parameter comment
+ 109 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 110 | ERROR | [ ] Missing parameter comment
+ 110 | ERROR | [x] Expected 22 spaces after parameter type; 2 found
+ 111 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+ 115 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 118 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 125 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 125 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+ 133 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 137 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 139 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 143 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 150 | ERROR | [ ] Missing parameter comment
+ 150 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 151 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+ 160 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 160 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+ 167 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 171 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 173 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 177 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 32 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...tasFIFA\app\app\Http\Controllers\Api\SeleccionPaisController.php
+----------------------------------------------------------------------
+FOUND 66 ERRORS AFFECTING 49 LINES
+----------------------------------------------------------------------
+   2 | ERROR | [ ] Missing file doc comment
+  14 | ERROR | [ ] Missing doc comment for class
+     |       |     SeleccionPaisController
+  16 | ERROR | [x] Line indented incorrectly; expected at least 4
+     |       |     spaces, found 0
+  16 | ERROR | [ ] Doc comment for parameter "$request" missing
+  17 | ERROR | [x] Expected 1 space(s) before asterisk; 5 found
+  18 | ERROR | [x] Expected 1 space(s) before asterisk; 5 found
+  19 | ERROR | [x] Expected 1 space(s) before asterisk; 5 found
+  20 | ERROR | [x] Expected 1 space(s) before asterisk; 5 found
+  29 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  33 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  35 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  39 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  46 | ERROR | [ ] Missing parameter comment
+  46 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+  47 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+  51 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  55 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  59 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  59 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+  64 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  64 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+  68 | ERROR | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  68 | ERROR | [x] First condition of a multi-line IF statement must
+     |       |     directly follow the opening parenthesis
+  68 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+  79 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  83 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  85 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  89 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+  96 | ERROR | [ ] Missing parameter comment
+  96 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+  97 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+ 106 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 106 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+ 110 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 114 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 116 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 120 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 127 | ERROR | [ ] Missing parameter comment
+ 127 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 128 | ERROR | [ ] Missing parameter comment
+ 128 | ERROR | [x] Expected 22 spaces after parameter type; 2 found
+ 129 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+ 133 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 137 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 144 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 144 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+ 149 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 149 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+ 154 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 154 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+ 158 | ERROR | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 158 | ERROR | [x] First condition of a multi-line IF statement must
+     |       |     directly follow the opening parenthesis
+ 158 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+ 167 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 171 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 173 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 177 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 184 | ERROR | [ ] Missing parameter comment
+ 184 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 185 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+     |       |     in a doc comment
+ 194 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 194 | ERROR | [x] There must be a single space between the closing
+     |       |     parenthesis and the opening brace of a multi-line
+     |       |     IF statement; found 0 spaces
+ 201 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 205 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 207 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+ 211 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 45 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...aApuestasFIFA\app\app\Http\Controllers\Api\UsuarioController.php
+----------------------------------------------------------------------
+FOUND 23 ERRORS AFFECTING 18 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+ 14 | ERROR | [ ] Missing doc comment for class UsuarioController
+ 16 | ERROR | [ ] Doc comment for parameter "$request" missing
+ 29 | ERROR | [ ] Missing parameter comment
+ 29 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 30 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+    |       |     in a doc comment
+ 34 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 39 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+ 50 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 54 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+ 56 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 60 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+ 67 | ERROR | [ ] Missing parameter comment
+ 67 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 68 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+    |       |     in a doc comment
+ 78 | ERROR | [ ] Missing parameter comment
+ 78 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 79 | ERROR | [ ] Missing parameter comment
+ 79 | ERROR | [x] Expected 22 spaces after parameter type; 2 found
+ 80 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+    |       |     in a doc comment
+ 90 | ERROR | [ ] Missing parameter comment
+ 90 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 91 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+    |       |     in a doc comment
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 11 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...puestasFIFA\app\app\Http\Controllers\Api\VaticinioController.php
+----------------------------------------------------------------------
+FOUND 92 ERRORS AND 11 WARNINGS AFFECTING 65 LINES
+----------------------------------------------------------------------
+   2 | ERROR   | [ ] Missing file doc comment
+  15 | ERROR   | [ ] Missing doc comment for class
+     |         |     VaticinioController
+  17 | ERROR   | [ ] Doc comment for parameter "$request" missing
+  30 | ERROR   | [ ] Missing parameter comment
+  30 | ERROR   | [x] Expected 1 spaces after parameter type; 2 found
+  31 | ERROR   | [ ] Tag @return cannot be grouped with parameter
+     |         |     tags in a doc comment
+  35 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  40 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+  44 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  44 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  45 | WARNING | [ ] Line exceeds 85 characters; contains 98
+     |         |     characters
+  49 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  49 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  53 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  53 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+  53 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  58 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  58 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  59 | WARNING | [ ] Line exceeds 85 characters; contains 114
+     |         |     characters
+  62 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  62 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+  62 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  63 | WARNING | [ ] Line exceeds 85 characters; contains 150
+     |         |     characters
+  67 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  67 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  68 | WARNING | [ ] Line exceeds 85 characters; contains 88
+     |         |     characters
+  73 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  73 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+  73 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  75 | ERROR   | [ ] Expected "} else if (...) {\n"; found "}else if
+     |         |     (...){\n"
+  75 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  75 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+  75 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  81 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+  81 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+  81 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  82 | WARNING | [ ] Line exceeds 85 characters; contains 106
+     |         |     characters
+  84 | ERROR   | [ ] Expected "} else {\n"; found "}else{\n"
+  85 | WARNING | [ ] Line exceeds 85 characters; contains 182
+     |         |     characters
+  97 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 101 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 103 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 107 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 114 | ERROR   | [ ] Missing parameter comment
+ 114 | ERROR   | [x] Expected 1 spaces after parameter type; 2 found
+ 115 | ERROR   | [ ] Tag @return cannot be grouped with parameter
+     |         |     tags in a doc comment
+ 124 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 124 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 128 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 132 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 134 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 138 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 145 | ERROR   | [ ] Missing parameter comment
+ 145 | ERROR   | [x] Expected 1 spaces after parameter type; 2 found
+ 146 | ERROR   | [ ] Missing parameter comment
+ 146 | ERROR   | [x] Expected 22 spaces after parameter type; 2 found
+ 147 | ERROR   | [ ] Tag @return cannot be grouped with parameter
+     |         |     tags in a doc comment
+ 151 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 154 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 161 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 161 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 166 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 166 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 170 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 170 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 170 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 175 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 175 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 176 | WARNING | [ ] Line exceeds 85 characters; contains 88
+     |         |     characters
+ 181 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 181 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 181 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 183 | ERROR   | [ ] Expected "} else if (...) {\n"; found "}else if
+     |         |     (...){\n"
+ 183 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 183 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 183 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 189 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 189 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 189 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 190 | WARNING | [ ] Line exceeds 85 characters; contains 106
+     |         |     characters
+ 192 | ERROR   | [ ] Expected "} else {\n"; found "}else{\n"
+ 193 | WARNING | [ ] Line exceeds 85 characters; contains 182
+     |         |     characters
+ 200 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 204 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 206 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 210 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 217 | ERROR   | [ ] Missing parameter comment
+ 217 | ERROR   | [x] Expected 1 spaces after parameter type; 2 found
+ 218 | ERROR   | [ ] Tag @return cannot be grouped with parameter
+     |         |     tags in a doc comment
+ 226 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 226 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 226 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 232 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 232 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 233 | WARNING | [ ] Line exceeds 85 characters; contains 87
+     |         |     characters
+ 236 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...){\n"
+ 236 | ERROR   | [x] First condition of a multi-line IF statement
+     |         |     must directly follow the opening parenthesis
+ 236 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+ 237 | WARNING | [ ] Line exceeds 85 characters; contains 107
+     |         |     characters
+ 243 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 247 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 249 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 253 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 56 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...AVEL\SistemaApuestasFIFA\app\app\Http\Controllers\Controller.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  2 | ERROR | Missing file doc comment
+ 10 | ERROR | Missing doc comment for class Controller
+----------------------------------------------------------------------
+
+
+FILE: ...top\PROYECTO LARAVEL\SistemaApuestasFIFA\app\app\Http\Kernel.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 7 | ERROR | Missing doc comment for class Kernel
+----------------------------------------------------------------------
+
+
+FILE: ...VEL\SistemaApuestasFIFA\app\app\Http\Middleware\Authenticate.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for class Authenticate
+ 12 | ERROR | [ ] Missing parameter comment
+ 12 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 13 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+    |       |     in a doc comment
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...L\SistemaApuestasFIFA\app\app\Http\Middleware\EncryptCookies.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 7 | ERROR | Missing doc comment for class EncryptCookies
+----------------------------------------------------------------------
+
+
+FILE: ...IFA\app\app\Http\Middleware\PreventRequestsDuringMaintenance.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AND 1 WARNING AFFECTING 3 LINES
+----------------------------------------------------------------------
+ 2 | ERROR   | Missing file doc comment
+ 5 | WARNING | Line exceeds 85 characters; contains 89 characters
+ 7 | ERROR   | Missing doc comment for class
+   |         | PreventRequestsDuringMaintenance
+----------------------------------------------------------------------
+
+
+FILE: ...ApuestasFIFA\app\app\Http\Middleware\RedirectIfAuthenticated.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+  9 | ERROR | [ ] Missing doc comment for class
+    |       |     RedirectIfAuthenticated
+ 14 | ERROR | [ ] Missing parameter comment
+ 14 | ERROR | [x] Expected 1 spaces after parameter type; 2 found
+ 15 | ERROR | [ ] Missing parameter comment
+ 15 | ERROR | [x] Expected 17 spaces after parameter type; 2 found
+ 16 | ERROR | [ ] Missing parameter comment
+ 16 | ERROR | [x] Expected 12 spaces after parameter type; 2 found
+ 17 | ERROR | [ ] Tag @return cannot be grouped with parameter tags
+    |       |     in a doc comment
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...AVEL\SistemaApuestasFIFA\app\app\Http\Middleware\TrimStrings.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 7 | ERROR | Missing doc comment for class TrimStrings
+----------------------------------------------------------------------
+
+
+FILE: ...RAVEL\SistemaApuestasFIFA\app\app\Http\Middleware\TrustHosts.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 7 | ERROR | Missing doc comment for class TrustHosts
+----------------------------------------------------------------------
+
+
+FILE: ...VEL\SistemaApuestasFIFA\app\app\Http\Middleware\TrustProxies.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 8 | ERROR | Missing doc comment for class TrustProxies
+----------------------------------------------------------------------
+
+
+FILE: ...\SistemaApuestasFIFA\app\app\Http\Middleware\VerifyCsrfToken.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 7 | ERROR | Missing doc comment for class VerifyCsrfToken
+----------------------------------------------------------------------
+
+
+FILE: ...CTO LARAVEL\SistemaApuestasFIFA\app\app\Models\Configuracion.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 8 | ERROR | Missing doc comment for class Configuracion
+----------------------------------------------------------------------
+
+
+FILE: ...\PROYECTO LARAVEL\SistemaApuestasFIFA\app\app\Models\Estadio.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+ 1 | ERROR | [x] End of line character is invalid; expected "\n" but
+   |       |     found "\r\n"
+ 2 | ERROR | [ ] Missing file doc comment
+ 8 | ERROR | [ ] Missing doc comment for class Estadio
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...op\PROYECTO LARAVEL\SistemaApuestasFIFA\app\app\Models\Grupo.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+ 1 | ERROR | [x] End of line character is invalid; expected "\n" but
+   |       |     found "\r\n"
+ 2 | ERROR | [ ] Missing file doc comment
+ 8 | ERROR | [ ] Missing doc comment for class Grupo
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...TO LARAVEL\SistemaApuestasFIFA\app\app\Models\GrupoSeleccion.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+ 1 | ERROR | [x] End of line character is invalid; expected "\n" but
+   |       |     found "\r\n"
+ 2 | ERROR | [ ] Missing file doc comment
+ 8 | ERROR | [ ] Missing doc comment for class GrupoSeleccion
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...top\PROYECTO LARAVEL\SistemaApuestasFIFA\app\app\Models\Liga.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+  2 | ERROR | Missing file doc comment
+ 10 | ERROR | Missing doc comment for class Liga
+ 44 | ERROR | Missing doc comment for function ligaCentral()
+ 49 | ERROR | Missing doc comment for function clonesLigas()
+----------------------------------------------------------------------
+
+
+FILE: ...ECTO LARAVEL\SistemaApuestasFIFA\app\app\Models\LigaUsuarios.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AND 1 WARNING AFFECTING 6 LINES
+----------------------------------------------------------------------
+  2 | ERROR   | Missing file doc comment
+  9 | ERROR   | Missing doc comment for class LigaUsuarios
+ 40 | ERROR   | Missing doc comment for function liga()
+ 45 | ERROR   | Missing doc comment for function usuario()
+ 50 | ERROR   | Missing doc comment for function pagoUsoPlataforma()
+ 52 | WARNING | Line exceeds 85 characters; contains 87 characters
+----------------------------------------------------------------------
+
+
+FILE: ...LARAVEL\SistemaApuestasFIFA\app\app\Models\PagoUsoPlataforma.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+  2 | ERROR | Missing file doc comment
+  9 | ERROR | Missing doc comment for class PagoUsoPlataforma
+ 39 | ERROR | Missing doc comment for function ligaUsuarios()
+----------------------------------------------------------------------
+
+
+FILE: ...\PROYECTO LARAVEL\SistemaApuestasFIFA\app\app\Models\Partido.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AND 1 WARNING AFFECTING 5 LINES
+----------------------------------------------------------------------
+  2 | ERROR   | Missing file doc comment
+ 10 | ERROR   | Missing doc comment for class Partido
+ 34 | WARNING | Line exceeds 85 characters; contains 112 characters
+ 47 | ERROR   | Missing doc comment for function liga()
+ 52 | ERROR   | Missing doc comment for function vaticinios()
+----------------------------------------------------------------------
+
+
+FILE: ...top\PROYECTO LARAVEL\SistemaApuestasFIFA\app\app\Models\Sede.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 8 | ERROR | Missing doc comment for class Sede
+----------------------------------------------------------------------
+
+
+FILE: ...CTO LARAVEL\SistemaApuestasFIFA\app\app\Models\SeleccionPais.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 8 | ERROR | Missing doc comment for class SeleccionPais
+----------------------------------------------------------------------
+
+
+FILE: ...top\PROYECTO LARAVEL\SistemaApuestasFIFA\app\app\Models\User.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  2 | ERROR | Missing file doc comment
+ 10 | ERROR | Missing doc comment for class User
+----------------------------------------------------------------------
+
+
+FILE: ...ROYECTO LARAVEL\SistemaApuestasFIFA\app\app\Models\Vaticinio.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+  2 | ERROR | Missing file doc comment
+  9 | ERROR | Missing doc comment for class Vaticinio
+ 41 | ERROR | Missing doc comment for function ligaUsuario()
+ 46 | ERROR | Missing doc comment for function partido()
+----------------------------------------------------------------------
+
+
+FILE: ...VEL\SistemaApuestasFIFA\app\app\Providers\AppServiceProvider.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 7 | ERROR | Missing doc comment for class AppServiceProvider
+----------------------------------------------------------------------
+
+
+FILE: ...EL\SistemaApuestasFIFA\app\app\Providers\AuthServiceProvider.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 8 | ERROR | Missing doc comment for class AuthServiceProvider
+----------------------------------------------------------------------
+
+
+FILE: ...stemaApuestasFIFA\app\app\Providers\BroadcastServiceProvider.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+  8 | ERROR | [ ] Missing doc comment for class
+    |       |     BroadcastServiceProvider
+ 19 | ERROR | [x] File is being conditionally included; use "include"
+    |       |     instead
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...L\SistemaApuestasFIFA\app\app\Providers\EventServiceProvider.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  2 | ERROR | Missing file doc comment
+ 10 | ERROR | Missing doc comment for class EventServiceProvider
+----------------------------------------------------------------------
+
+
+FILE: ...L\SistemaApuestasFIFA\app\app\Providers\RouteServiceProvider.php
+----------------------------------------------------------------------
+FOUND 6 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+ 11 | ERROR | [ ] Missing doc comment for class RouteServiceProvider
+ 31 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 38 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+ 48 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 50 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...sktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\bootstrap\app.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | You must use "/**" style comments for a file comment
+----------------------------------------------------------------------
+
+
+FILE: ...CTO LARAVEL\SistemaApuestasFIFA\app\bootstrap\cache\packages.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...CTO LARAVEL\SistemaApuestasFIFA\app\bootstrap\cache\services.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 94 WARNINGS AFFECTING 95 LINES
+----------------------------------------------------------------------
+   1 | ERROR   | Missing file doc comment
+  61 | WARNING | Line exceeds 85 characters; contains 105 characters
+  62 | WARNING | Line exceeds 85 characters; contains 107 characters
+  63 | WARNING | Line exceeds 85 characters; contains 111 characters
+  65 | WARNING | Line exceeds 85 characters; contains 86 characters
+  66 | WARNING | Line exceeds 85 characters; contains 94 characters
+  73 | WARNING | Line exceeds 85 characters; contains 96 characters
+  74 | WARNING | Line exceeds 85 characters; contains 97 characters
+  75 | WARNING | Line exceeds 85 characters; contains 99 characters
+  76 | WARNING | Line exceeds 85 characters; contains 102 characters
+  77 | WARNING | Line exceeds 85 characters; contains 97 characters
+  78 | WARNING | Line exceeds 85 characters; contains 97 characters
+  79 | WARNING | Line exceeds 85 characters; contains 117 characters
+  80 | WARNING | Line exceeds 85 characters; contains 93 characters
+  81 | WARNING | Line exceeds 85 characters; contains 92 characters
+  82 | WARNING | Line exceeds 85 characters; contains 89 characters
+  83 | WARNING | Line exceeds 85 characters; contains 96 characters
+  84 | WARNING | Line exceeds 85 characters; contains 96 characters
+  85 | WARNING | Line exceeds 85 characters; contains 96 characters
+  86 | WARNING | Line exceeds 85 characters; contains 95 characters
+  87 | WARNING | Line exceeds 85 characters; contains 97 characters
+  88 | WARNING | Line exceeds 85 characters; contains 93 characters
+  89 | WARNING | Line exceeds 85 characters; contains 99 characters
+  90 | WARNING | Line exceeds 85 characters; contains 101 characters
+  91 | WARNING | Line exceeds 85 characters; contains 96 characters
+  92 | WARNING | Line exceeds 85 characters; contains 97 characters
+  93 | WARNING | Line exceeds 85 characters; contains 96 characters
+  94 | WARNING | Line exceeds 85 characters; contains 97 characters
+  95 | WARNING | Line exceeds 85 characters; contains 97 characters
+  96 | WARNING | Line exceeds 85 characters; contains 98 characters
+  97 | WARNING | Line exceeds 85 characters; contains 104 characters
+  98 | WARNING | Line exceeds 85 characters; contains 108 characters
+  99 | WARNING | Line exceeds 85 characters; contains 98 characters
+ 100 | WARNING | Line exceeds 85 characters; contains 96 characters
+ 101 | WARNING | Line exceeds 85 characters; contains 102 characters
+ 102 | WARNING | Line exceeds 85 characters; contains 95 characters
+ 103 | WARNING | Line exceeds 85 characters; contains 96 characters
+ 104 | WARNING | Line exceeds 85 characters; contains 96 characters
+ 105 | WARNING | Line exceeds 85 characters; contains 95 characters
+ 106 | WARNING | Line exceeds 85 characters; contains 96 characters
+ 107 | WARNING | Line exceeds 85 characters; contains 89 characters
+ 108 | WARNING | Line exceeds 85 characters; contains 131 characters
+ 109 | WARNING | Line exceeds 85 characters; contains 129 characters
+ 110 | WARNING | Line exceeds 85 characters; contains 128 characters
+ 111 | WARNING | Line exceeds 85 characters; contains 135 characters
+ 112 | WARNING | Line exceeds 85 characters; contains 129 characters
+ 113 | WARNING | Line exceeds 85 characters; contains 129 characters
+ 114 | WARNING | Line exceeds 85 characters; contains 97 characters
+ 115 | WARNING | Line exceeds 85 characters; contains 87 characters
+ 116 | WARNING | Line exceeds 85 characters; contains 95 characters
+ 117 | WARNING | Line exceeds 85 characters; contains 95 characters
+ 118 | WARNING | Line exceeds 85 characters; contains 96 characters
+ 119 | WARNING | Line exceeds 85 characters; contains 94 characters
+ 120 | WARNING | Line exceeds 85 characters; contains 97 characters
+ 121 | WARNING | Line exceeds 85 characters; contains 99 characters
+ 122 | WARNING | Line exceeds 85 characters; contains 97 characters
+ 123 | WARNING | Line exceeds 85 characters; contains 100 characters
+ 124 | WARNING | Line exceeds 85 characters; contains 99 characters
+ 125 | WARNING | Line exceeds 85 characters; contains 95 characters
+ 126 | WARNING | Line exceeds 85 characters; contains 99 characters
+ 127 | WARNING | Line exceeds 85 characters; contains 97 characters
+ 128 | WARNING | Line exceeds 85 characters; contains 93 characters
+ 129 | WARNING | Line exceeds 85 characters; contains 98 characters
+ 130 | WARNING | Line exceeds 85 characters; contains 94 characters
+ 131 | WARNING | Line exceeds 85 characters; contains 100 characters
+ 132 | WARNING | Line exceeds 85 characters; contains 95 characters
+ 133 | WARNING | Line exceeds 85 characters; contains 102 characters
+ 134 | WARNING | Line exceeds 85 characters; contains 103 characters
+ 135 | WARNING | Line exceeds 85 characters; contains 98 characters
+ 136 | WARNING | Line exceeds 85 characters; contains 96 characters
+ 137 | WARNING | Line exceeds 85 characters; contains 98 characters
+ 138 | WARNING | Line exceeds 85 characters; contains 103 characters
+ 139 | WARNING | Line exceeds 85 characters; contains 96 characters
+ 140 | WARNING | Line exceeds 85 characters; contains 104 characters
+ 141 | WARNING | Line exceeds 85 characters; contains 97 characters
+ 142 | WARNING | Line exceeds 85 characters; contains 98 characters
+ 143 | WARNING | Line exceeds 85 characters; contains 94 characters
+ 144 | WARNING | Line exceeds 85 characters; contains 96 characters
+ 145 | WARNING | Line exceeds 85 characters; contains 98 characters
+ 146 | WARNING | Line exceeds 85 characters; contains 90 characters
+ 147 | WARNING | Line exceeds 85 characters; contains 97 characters
+ 148 | WARNING | Line exceeds 85 characters; contains 94 characters
+ 149 | WARNING | Line exceeds 85 characters; contains 99 characters
+ 151 | WARNING | Line exceeds 85 characters; contains 97 characters
+ 152 | WARNING | Line exceeds 85 characters; contains 94 characters
+ 153 | WARNING | Line exceeds 85 characters; contains 92 characters
+ 154 | WARNING | Line exceeds 85 characters; contains 98 characters
+ 155 | WARNING | Line exceeds 85 characters; contains 100 characters
+ 156 | WARNING | Line exceeds 85 characters; contains 100 characters
+ 157 | WARNING | Line exceeds 85 characters; contains 98 characters
+ 158 | WARNING | Line exceeds 85 characters; contains 101 characters
+ 159 | WARNING | Line exceeds 85 characters; contains 99 characters
+ 160 | WARNING | Line exceeds 85 characters; contains 97 characters
+ 167 | WARNING | Line exceeds 85 characters; contains 94 characters
+ 176 | WARNING | Line exceeds 85 characters; contains 90 characters
+----------------------------------------------------------------------
+
+
+FILE: ...\Desktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\app.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...Desktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\auth.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\broadcasting.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...esktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\cache.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 1 WARNING AFFECTING 2 LINES
+----------------------------------------------------------------------
+   2 | ERROR   | Missing file doc comment
+ 102 | WARNING | Line exceeds 85 characters; contains 89 characters
+----------------------------------------------------------------------
+
+
+FILE: ...Desktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\cors.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...top\PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\database.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AND 1 WARNING AFFECTING 4 LINES
+----------------------------------------------------------------------
+   2 | ERROR   | [ ] Missing file doc comment
+  61 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  63 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 126 | WARNING | [ ] Line exceeds 85 characters; contains 101
+     |         |     characters
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...\PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\filesystems.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...ktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\hashing.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...ktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\logging.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...Desktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\mail.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...esktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\queue.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 1 WARNING AFFECTING 2 LINES
+----------------------------------------------------------------------
+  2 | ERROR   | Missing file doc comment
+ 56 | WARNING | Line exceeds 85 characters; contains 97 characters
+----------------------------------------------------------------------
+
+
+FILE: ...top\PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\services.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...ktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\session.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...Desktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\config\view.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...RAVEL\SistemaApuestasFIFA\app\database\factories\UserFactory.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AND 1 WARNING AFFECTING 3 LINES
+----------------------------------------------------------------------
+  2 | ERROR   | Missing file doc comment
+  9 | ERROR   | Missing doc comment for class UserFactory
+ 29 | WARNING | Line exceeds 85 characters; contains 101 characters
+----------------------------------------------------------------------
+
+
+FILE: ...app\database\migrations\2014_10_12_000000_create_users_table.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 5 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but
+    |       |     found "\r\n"
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for class CreateUsersTable
+ 16 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 25 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...se\migrations\2014_10_12_100000_create_password_resets_table.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for class
+    |       |     CreatePasswordResetsTable
+ 16 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 20 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...tabase\migrations\2019_08_19_000000_create_failed_jobs_table.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for class CreateFailedJobsTable
+ 16 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 24 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ase\migrations\2022_10_04_063542_create_configuracions_table.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AND 4 WARNINGS AFFECTING 9 LINES
+----------------------------------------------------------------------
+  1 | ERROR   | [x] End of line character is invalid; expected "\n"
+    |         |     but found "\r\n"
+  2 | ERROR   | [ ] Missing file doc comment
+  7 | ERROR   | [ ] Missing doc comment for class
+    |         |     CreateConfiguracionsTable
+ 16 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+ 19 | WARNING | [ ] Line exceeds 85 characters; contains 230
+    |         |     characters
+ 20 | WARNING | [ ] Line exceeds 85 characters; contains 184
+    |         |     characters
+ 21 | WARNING | [ ] Line exceeds 85 characters; contains 218
+    |         |     characters
+ 22 | WARNING | [ ] Line exceeds 85 characters; contains 195
+    |         |     characters
+ 24 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...app\database\migrations\2022_10_04_063936_create_sedes_table.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 5 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but
+    |       |     found "\r\n"
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for class CreateSedesTable
+ 16 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 22 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...\database\migrations\2022_10_04_064119_create_estadios_table.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 5 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but
+    |       |     found "\r\n"
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for class CreateEstadiosTable
+ 16 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 21 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...app\database\migrations\2022_10_04_064257_create_ligas_table.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AND 2 WARNINGS AFFECTING 7 LINES
+----------------------------------------------------------------------
+  1 | ERROR   | [x] End of line character is invalid; expected "\n"
+    |         |     but found "\r\n"
+  2 | ERROR   | [ ] Missing file doc comment
+  7 | ERROR   | [ ] Missing doc comment for class CreateLigasTable
+ 16 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+ 18 | WARNING | [ ] Line exceeds 85 characters; contains 180
+    |         |     characters
+ 29 | WARNING | [ ] Line exceeds 85 characters; contains 87
+    |         |     characters
+ 31 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ase\migrations\2022_10_04_130425_create_seleccion_pais_table.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for class
+    |       |     CreateSeleccionPaisTable
+ 16 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 24 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...pp\database\migrations\2022_10_04_130637_create_grupos_table.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 5 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but
+    |       |     found "\r\n"
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for class CreateGruposTable
+ 16 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 24 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...e\migrations\2022_10_04_131728_create_grupo_seleccions_table.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AND 1 WARNING AFFECTING 5 LINES
+----------------------------------------------------------------------
+  2 | ERROR   | [ ] Missing file doc comment
+  7 | ERROR   | [ ] Missing doc comment for class
+    |         |     CreateGrupoSeleccionsTable
+ 16 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+ 23 | WARNING | [ ] Line exceeds 85 characters; contains 89
+    |         |     characters
+ 25 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...base\migrations\2022_10_04_131903_create_liga_usuarios_table.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for class
+    |       |     CreateLigaUsuariosTable
+ 16 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 27 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...grations\2022_10_04_132454_create_pago_uso_plataformas_table.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AND 1 WARNING AFFECTING 5 LINES
+----------------------------------------------------------------------
+  2 | ERROR   | [ ] Missing file doc comment
+  7 | ERROR   | [ ] Missing doc comment for class
+    |         |     CreatePagoUsoPlataformasTable
+ 16 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+ 24 | WARNING | [ ] Line exceeds 85 characters; contains 87
+    |         |     characters
+ 25 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...\database\migrations\2022_10_04_132804_create_partidos_table.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AND 2 WARNINGS AFFECTING 7 LINES
+----------------------------------------------------------------------
+  1 | ERROR   | [x] End of line character is invalid; expected "\n"
+    |         |     but found "\r\n"
+  2 | ERROR   | [ ] Missing file doc comment
+  7 | ERROR   | [ ] Missing doc comment for class CreatePartidosTable
+ 16 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+ 34 | WARNING | [ ] Line exceeds 85 characters; contains 91
+    |         |     characters
+ 35 | WARNING | [ ] Line exceeds 85 characters; contains 91
+    |         |     characters
+ 36 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...atabase\migrations\2022_10_04_133107_create_vaticinios_table.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AND 1 WARNING AFFECTING 5 LINES
+----------------------------------------------------------------------
+  2 | ERROR   | [ ] Missing file doc comment
+  7 | ERROR   | [ ] Missing doc comment for class
+    |         |     CreateVaticiniosTable
+ 16 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+ 26 | WARNING | [ ] Line exceeds 85 characters; contains 86
+    |         |     characters
+ 28 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ons\2022_10_05_053212_add_relacion_directa_grupo_a_seleccion.php
+----------------------------------------------------------------------
+FOUND 6 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for class
+    |       |     AddRelacionDirectaGrupoASeleccion
+ 16 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 19 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+ 29 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 32 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...e\migrations\2022_10_06_021006_add_es_administrador_to_users.php
+----------------------------------------------------------------------
+FOUND 6 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for class
+    |       |     AddEsAdministradorToUsers
+ 16 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 18 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+ 28 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 30 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...SistemaApuestasFIFA\app\database\seeders\ConfiguracionSeeder.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  2 | ERROR | Missing file doc comment
+ 11 | ERROR | Missing doc comment for class ConfiguracionSeeder
+----------------------------------------------------------------------
+
+
+FILE: ...AVEL\SistemaApuestasFIFA\app\database\seeders\DatabaseSeeder.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for class DatabaseSeeder
+ 17 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 20 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ApuestasFIFA\app\database\seeders\UsuarioAdministradorSeeder.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  2 | ERROR | Missing file doc comment
+ 12 | ERROR | Missing doc comment for class
+    |       | UsuarioAdministradorSeeder
+----------------------------------------------------------------------
+
+
+FILE: ...esktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\public\index.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 5 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+ 20 | ERROR | [x] File is being conditionally included; use "include"
+    |       |     instead
+ 47 | ERROR | [x] File is being conditionally included; use
+    |       |     "include_once" instead
+ 51 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 53 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...YECTO LARAVEL\SistemaApuestasFIFA\app\resources\lang\en\auth.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...LARAVEL\SistemaApuestasFIFA\app\resources\lang\en\pagination.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ... LARAVEL\SistemaApuestasFIFA\app\resources\lang\en\passwords.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+----------------------------------------------------------------------
+
+
+FILE: ...LARAVEL\SistemaApuestasFIFA\app\resources\lang\en\validation.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 6 WARNINGS AFFECTING 7 LINES
+----------------------------------------------------------------------
+   2 | ERROR   | Missing file doc comment
+  21 | WARNING | Line exceeds 85 characters; contains 96 characters
+  56 | WARNING | Line exceeds 85 characters; contains 86 characters
+ 101 | WARNING | Line exceeds 85 characters; contains 89 characters
+ 103 | WARNING | Line exceeds 85 characters; contains 88 characters
+ 104 | WARNING | Line exceeds 85 characters; contains 90 characters
+ 105 | WARNING | Line exceeds 85 characters; contains 99 characters
+----------------------------------------------------------------------
+
+
+FILE: ...ARAVEL\SistemaApuestasFIFA\app\resources\views\welcome.blade.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | No PHP code was found in this file and short open tags
+   |         | are not allowed by this install of PHP. This file may
+   |         | be using short open tags but PHP does not allow them.
+----------------------------------------------------------------------
+
+
+FILE: ...\Desktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\routes\api.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 9 WARNINGS AFFECTING 10 LINES
+----------------------------------------------------------------------
+  2 | ERROR   | Missing file doc comment
+ 19 | WARNING | Line exceeds 85 characters; contains 98 characters
+ 24 | WARNING | Line exceeds 85 characters; contains 94 characters
+ 28 | WARNING | Line exceeds 85 characters; contains 96 characters
+ 29 | WARNING | Line exceeds 85 characters; contains 117 characters
+ 30 | WARNING | Line exceeds 85 characters; contains 111 characters
+ 32 | WARNING | Line exceeds 85 characters; contains 110 characters
+ 33 | WARNING | Line exceeds 85 characters; contains 108 characters
+ 34 | WARNING | Line exceeds 85 characters; contains 104 characters
+ 37 | WARNING | Line exceeds 85 characters; contains 131 characters
+----------------------------------------------------------------------
+
+
+FILE: ...top\PROYECTO LARAVEL\SistemaApuestasFIFA\app\routes\channels.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+ 16 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 18 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\routes\console.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+ 17 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 19 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...\Desktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\routes\web.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+ 16 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 18 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...dana\Desktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\server.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AND 1 WARNING AFFECTING 3 LINES
+----------------------------------------------------------------------
+ 6 | ERROR   | [x] Tag value for @package tag indented incorrectly;
+   |         |     expected 1 spaces but found 2
+ 7 | ERROR   | [x] Tag value for @author tag indented incorrectly;
+   |         |     expected 2 spaces but found 3
+ 8 | WARNING | [ ] PHP version not specified
+ 8 | ERROR   | [ ] Missing @category tag in file comment
+ 8 | ERROR   | [ ] Missing @license tag in file comment
+ 8 | ERROR   | [ ] Missing @link tag in file comment
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...age\framework\views\6085ef4012871a05c10f7c1688365e71d2bf4a22.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AND 1 WARNING AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 1 | ERROR   | [ ] Missing file doc comment
+ 5 | ERROR   | [x] The open comment tag must be the only content on
+   |         |     the line
+ 5 | ERROR   | [x] Doc comment short description must be on the first
+   |         |     line
+ 5 | ERROR   | [x] The close comment tag must be the only content on
+   |         |     the line
+ 5 | WARNING | [ ] Line exceeds 85 characters; contains 311
+   |         |     characters
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...age\framework\views\6b88c0cf56f927d60784cdcea4eab3222110c3d0.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AND 5 WARNINGS AFFECTING 6 LINES
+----------------------------------------------------------------------
+  7 | ERROR   | [ ] Missing file doc comment
+ 11 | WARNING | [ ] Line exceeds 85 characters; contains 99
+    |         |     characters
+ 14 | WARNING | [ ] Line exceeds 85 characters; contains 5395
+    |         |     characters
+ 24 | WARNING | [ ] Line exceeds 85 characters; contains 126
+    |         |     characters
+ 27 | WARNING | [ ] Line exceeds 85 characters; contains 100
+    |         |     characters
+ 39 | ERROR   | [x] The open comment tag must be the only content on
+    |         |     the line
+ 39 | ERROR   | [x] Doc comment short description must be on the
+    |         |     first line
+ 39 | ERROR   | [x] The close comment tag must be the only content on
+    |         |     the line
+ 39 | WARNING | [ ] Line exceeds 85 characters; contains 184
+    |         |     characters
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...age\framework\views\7badf88a2bdf32a59a30e16263acfd5bd1d1cfd0.php
+----------------------------------------------------------------------
+FOUND 7 ERRORS AND 38 WARNINGS AFFECTING 42 LINES
+----------------------------------------------------------------------
+   2 | ERROR   | [ ] Missing file doc comment
+  10 | WARNING | [ ] Line exceeds 85 characters; contains 116
+     |         |     characters
+  14 | WARNING | [ ] Line exceeds 85 characters; contains 3954
+     |         |     characters
+  24 | WARNING | [ ] Line exceeds 85 characters; contains 126
+     |         |     characters
+  25 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  27 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  28 | WARNING | [ ] Line exceeds 85 characters; contains 113
+     |         |     characters
+  30 | WARNING | [ ] Line exceeds 85 characters; contains 116
+     |         |     characters
+  32 | ERROR   | [x] There must be a single space between the closing
+     |         |     parenthesis and the opening brace of a
+     |         |     multi-line IF statement; found 0 spaces
+  33 | WARNING | [ ] Line exceeds 85 characters; contains 131
+     |         |     characters
+  41 | WARNING | [ ] Line exceeds 85 characters; contains 136
+     |         |     characters
+  43 | WARNING | [ ] Line exceeds 85 characters; contains 4889
+     |         |     characters
+  48 | WARNING | [ ] Line exceeds 85 characters; contains 97
+     |         |     characters
+  52 | WARNING | [ ] Line exceeds 85 characters; contains 451
+     |         |     characters
+  53 | WARNING | [ ] Line exceeds 85 characters; contains 188
+     |         |     characters
+  57 | WARNING | [ ] Line exceeds 85 characters; contains 91
+     |         |     characters
+  58 | WARNING | [ ] Line exceeds 85 characters; contains 269
+     |         |     characters
+  63 | WARNING | [ ] Line exceeds 85 characters; contains 113
+     |         |     characters
+  65 | WARNING | [ ] Line exceeds 85 characters; contains 419
+     |         |     characters
+  66 | WARNING | [ ] Line exceeds 85 characters; contains 181
+     |         |     characters
+  70 | WARNING | [ ] Line exceeds 85 characters; contains 91
+     |         |     characters
+  71 | WARNING | [ ] Line exceeds 85 characters; contains 223
+     |         |     characters
+  76 | WARNING | [ ] Line exceeds 85 characters; contains 87
+     |         |     characters
+  78 | WARNING | [ ] Line exceeds 85 characters; contains 300
+     |         |     characters
+  79 | WARNING | [ ] Line exceeds 85 characters; contains 188
+     |         |     characters
+  83 | WARNING | [ ] Line exceeds 85 characters; contains 91
+     |         |     characters
+  84 | WARNING | [ ] Line exceeds 85 characters; contains 218
+     |         |     characters
+  89 | WARNING | [ ] Line exceeds 85 characters; contains 99
+     |         |     characters
+  91 | WARNING | [ ] Line exceeds 85 characters; contains 405
+     |         |     characters
+  92 | WARNING | [ ] Line exceeds 85 characters; contains 135
+     |         |     characters
+  96 | WARNING | [ ] Line exceeds 85 characters; contains 91
+     |         |     characters
+  97 | WARNING | [ ] Line exceeds 85 characters; contains 912
+     |         |     characters
+ 104 | WARNING | [ ] Line exceeds 85 characters; contains 89
+     |         |     characters
+ 107 | WARNING | [ ] Line exceeds 85 characters; contains 188
+     |         |     characters
+ 108 | WARNING | [ ] Line exceeds 85 characters; contains 198
+     |         |     characters
+ 111 | WARNING | [ ] Line exceeds 85 characters; contains 91
+     |         |     characters
+ 115 | WARNING | [ ] Line exceeds 85 characters; contains 193
+     |         |     characters
+ 116 | WARNING | [ ] Line exceeds 85 characters; contains 173
+     |         |     characters
+ 119 | WARNING | [ ] Line exceeds 85 characters; contains 102
+     |         |     characters
+ 125 | WARNING | [ ] Line exceeds 85 characters; contains 94
+     |         |     characters
+ 126 | WARNING | [ ] Line exceeds 85 characters; contains 91
+     |         |     characters
+ 134 | ERROR   | [x] The open comment tag must be the only content on
+     |         |     the line
+ 134 | ERROR   | [x] Doc comment short description must be on the
+     |         |     first line
+ 134 | ERROR   | [x] The close comment tag must be the only content
+     |         |     on the line
+ 134 | WARNING | [ ] Line exceeds 85 characters; contains 132
+     |         |     characters
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 6 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...CTO LARAVEL\SistemaApuestasFIFA\app\tests\CreatesApplication.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for trait CreatesApplication
+ 16 | ERROR | [x] File is being conditionally included; use "include"
+    |       |     instead
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...TO LARAVEL\SistemaApuestasFIFA\app\tests\Feature\ExampleTest.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 8 | ERROR | Missing doc comment for class ExampleTest
+----------------------------------------------------------------------
+
+
+FILE: ...ktop\PROYECTO LARAVEL\SistemaApuestasFIFA\app\tests\TestCase.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 7 | ERROR | Missing doc comment for class TestCase
+----------------------------------------------------------------------
+
+
+FILE: ...YECTO LARAVEL\SistemaApuestasFIFA\app\tests\Unit\ExampleTest.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 2 | ERROR | Missing file doc comment
+ 7 | ERROR | Missing doc comment for class ExampleTest
+----------------------------------------------------------------------
+
+
