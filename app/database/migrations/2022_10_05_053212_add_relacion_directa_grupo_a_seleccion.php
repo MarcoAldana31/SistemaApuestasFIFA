@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 class AddRelacionDirectaGrupoASeleccion extends Migration
@@ -14,7 +15,7 @@ class AddRelacionDirectaGrupoASeleccion extends Migration
     public function up()
     {
         Schema::table('seleccion_pais', function (Blueprint $table) {
-            $table->unsignedBigInteger('id_grupo')->after('id_liga');
+            $table->unsignedBigInteger('id_grupo')->after('id_liga')->nullable();
             $table->foreign('id_grupo')->references('id')->on('grupo');
         });
     }
@@ -27,7 +28,10 @@ class AddRelacionDirectaGrupoASeleccion extends Migration
     public function down()
     {
         Schema::table('seleccion_pais', function (Blueprint $table) {
-            $table->dropForeign(['id_grupo']);
+            if ( DB::getDriverName() !== 'sqlite' ){
+                $table->dropForeign(['id_grupo']);
+            }
+
             $table->dropColumn(['id_grupo']);
         });
     }

@@ -1,0 +1,6 @@
+projectKey=sistema-proyecto
+serverUrl=http://localhost:9000
+serverVersion=9.7.1.62043
+dashboardUrl=http://localhost:9000/dashboard?id=sistema-proyecto
+ceTaskId=AYTL1NCn9MmEJ0iXqdV9
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYTL1NCn9MmEJ0iXqdV9
